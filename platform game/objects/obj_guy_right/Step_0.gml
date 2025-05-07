@@ -1,43 +1,50 @@
-// ######################## INPUT ########################
-move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-move_x *= move_speed
-var jump_pressed = keyboard_check_pressed(vk_space); // var makes it a local variable just for this page
-
-
-// ######################## COLLISION CHECKS ########################
-// Check if standing on the ground
-is_grounded = place_meeting(x, y+2, ground_object);
-
-// Check if touching a ladder
-is_climbing = place_meeting(x, y, ladder_object);
-
-
-// ######################## MOVEMENT ########################
-// Climbing
-if (is_climbing) {
-		move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
-		move_y *= climb_speed;
+// Gravity logic
+if (place_free(x, y + 1)) 
+{
+    gravity = 1;
 }
-else {
-// Gravity & Jumping
-	if (is_grounded && jump_pressed) {
-		move_y = jump_speed;
-	}
-// Falling due to Gravity
-	else if (move_y < max_fall_speed) { // Keep a reasonable fall speed
-		move_y += gravity_force; // Gravity pulls down!
-	}
+else 
+{
+    gravity = 0;
+    vspeed = 0; // Ensure vertical speed resets when touching the ground
 }
 
-// ######################## MOVE THE PLAYER ########################
-move_and_collide(move_x, move_y, ground_object);
+// Apply movement first
+var temp_hspeed = 0;
 
-// ######################## OUTSIDE ROOM ########################
-if (x < -20 || x > room_width + 20 || y > room_height + 20 || y < -200) {
-		room_restart();  // Restart the room if outside the boundaries we set	
+if (keyboard_check(ord("D"))) 
+{
+    temp_hspeed = 5;
+    sprite_index = spr_guy_right;
+    last_direction = 1;
+}
+else if (keyboard_check(ord("A"))) 
+{
+    temp_hspeed = -5;
+    sprite_index = spr_guy_left;
+    last_direction = -1;
+}
+else 
+{
+    temp_hspeed = 0;
+
+    if (last_direction == 1) sprite_index = spr_guy_idle_right;
+    else sprite_index = spr_guy_idle_left;
 }
 
-//Movemnt
+// Only apply horizontal speed if the position is free
+if (place_free(x + temp_hspeed, y)) 
+{
+    hspeed = temp_hspeed;
+}
 
+// Jumping logic
+if (keyboard_check_pressed(ord("W")) && !place_free(x, y + 1))
+{
+    vspeed = -20;
+    y -= 1; // Slightly move the player up to ensure jump is processed
+}
 
-
+// Apply gravity
+vspeed += gravity; // Apply gravity
+y += vspeed;       // Move the player vertically
