@@ -6,6 +6,7 @@
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"order":1,},
     {"id":{"name":"spr_guy_idle_left","path":"sprites/spr_guy_idle_left/spr_guy_idle_left.yy",},"order":5,},
     {"id":{"name":"obj_guy_idle_left","path":"objects/obj_guy_idle_left/obj_guy_idle_left.yy",},"order":5,},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":6,},
     {"id":{"name":"spr_guy_idle_right","path":"sprites/spr_guy_idle_right/spr_guy_idle_right.yy",},"order":3,},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},"order":2,},
     {"id":{"name":"obj_guy_left","path":"objects/obj_guy_left/obj_guy_left.yy",},"order":6,},
