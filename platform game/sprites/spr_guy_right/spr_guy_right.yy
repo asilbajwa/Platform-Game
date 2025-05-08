@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_guy_right",
   "bboxMode": 0,
-  "collisionKind": 4,
+  "collisionKind": 1,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,

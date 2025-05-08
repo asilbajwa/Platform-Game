@@ -1,3 +1,5 @@
-// Initialize last_direction to a default value
-last_direction = 1; 
-last_direction = -1;
+move_speed = 4;
+jump_speed = 16;
+
+move_x = 0;
+move_y = 0;

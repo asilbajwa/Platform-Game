@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_guy_idle_left",
+  "name": "obj_tri",
   "spriteId": {
-    "name": "spr_guy_idle_left",
-    "path": "sprites/spr_guy_idle_left/spr_guy_idle_left.yy",
+    "name": "spr_tri",
+    "path": "sprites/spr_tri/spr_tri.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
