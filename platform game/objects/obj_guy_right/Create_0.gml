@@ -7,3 +7,6 @@ move_y = 0;
 //Create score and high score
 global.score = 0;
 global.highscore = 0;
+
+// Initialize speedrun timer (starts at 0 steps)
+timer = 0;
