@@ -209,6 +209,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62DF31ED","properties":[],"isDnd":false,"objectId":{"name":"obj_Coin","path":"objects/obj_Coin/obj_Coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2703C3B7","properties":[],"isDnd":false,"objectId":{"name":"obj_Coin","path":"objects/obj_Coin/obj_Coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1760.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47B61DFC","properties":[],"isDnd":false,"objectId":{"name":"obj_Coin","path":"objects/obj_Coin/obj_Coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1824.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A2AA860","properties":[],"isDnd":false,"objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2528.0,"y":544.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_3","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_3EB55D54","spriteId":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"headPosition":0.0,"rotation":-0.06852804,"scaleX":3.5164318,"scaleY":1.6490872,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6.1035156E-05,"y":-1.3263547E-05,},
@@ -416,6 +417,7 @@
     {"name":"inst_62DF31ED","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2703C3B7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_47B61DFC","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_A2AA860","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

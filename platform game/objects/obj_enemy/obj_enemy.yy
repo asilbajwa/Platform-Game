@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_guy_right",
+  "name": "obj_enemy",
   "spriteId": {
-    "name": "spr_guy_right",
-    "path": "sprites/spr_guy_right/spr_guy_right.yy",
+    "name": "spr_enemy_left",
+    "path": "sprites/spr_enemy_left/spr_enemy_left.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,10 +25,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_guy_right","path":"objects/obj_guy_right/obj_guy_right.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

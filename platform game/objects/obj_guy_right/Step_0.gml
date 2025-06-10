@@ -30,3 +30,9 @@ if keyboard_check(ord("S"))  {
 move_y =0.2
 }
 }
+
+// Check if player is dead
+if (hp <= 0) {
+    show_message("You died!");
+    instance_destroy(); // Remove the player from the game
+}

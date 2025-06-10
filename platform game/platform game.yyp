@@ -4,6 +4,7 @@
   "name": "platform game",
   "resources": [
     {"id":{"name":"spr_enemy_right","path":"sprites/spr_enemy_right/spr_enemy_right.yy",},"order":11,},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":11,},
     {"id":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},"order":10,},
     {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"order":9,},
     {"id":{"name":"spr_tri","path":"sprites/spr_tri/spr_tri.yy",},"order":7,},
@@ -37,7 +38,7 @@
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
