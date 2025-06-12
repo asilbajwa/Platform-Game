@@ -17,6 +17,7 @@
     {"id":{"name":"obj_Heart","path":"objects/obj_Heart/obj_Heart.yy",},"order":8,},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},"order":3,},
     {"id":{"name":"obj_guy_right","path":"objects/obj_guy_right/obj_guy_right.yy",},"order":0,},
+    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},"order":0,},
     {"id":{"name":"obj_portal_2","path":"objects/obj_portal_2/obj_portal_2.yy",},"order":10,},
     {"id":{"name":"spr_guy_right","path":"sprites/spr_guy_right/spr_guy_right.yy",},"order":0,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
