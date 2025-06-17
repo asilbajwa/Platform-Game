@@ -8,8 +8,7 @@ move_y = 0;
 // Player initial health
 hp = 100;
 
-// Play background music looping
-audio_play_sound(Sound1, 1, true); // 1 = priority, true = loop
+
 
 coin_count = 0
 
